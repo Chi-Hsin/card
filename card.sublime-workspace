@@ -1,0 +1,474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"img",
+				"img_element"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"to",
+				"to_url"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"text",
+				"text-overflow"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"GetCom",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"arra",
+				"array_filter"
+			],
+			[
+				"s",
+				"search_str"
+			],
+			[
+				"onke",
+				"onkeydown\tAttr"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"code",
+				"code_img"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"sml",
+				"small_pic"
+			],
+			[
+				"file",
+				"file_path"
+			],
+			[
+				"enem",
+				"enemy_drop"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"book",
+				"book_num"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"div",
+				"div1"
+			],
+			[
+				"tiny",
+				"TinyMCE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nOmniSharp\n---------\n\n  Welcome to OmniSharpSublime!\n  \n  You can now edit C#, build your projects, run your tests, get intellisense, refactor like a pro, be shown syntax errors and lots more!\n  \n  For more information see the README and Wiki here: https://github.com/OmniSharp/omnisharp-sublime\n",
+			"settings":
+			{
+				"buffer_size": 346,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"last_filter": "LiveReload: Enable/disable plugins",
+		"selected_items":
+		[
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 524.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/CardMonster"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/CardMonster/test3.php",
+		"/C/xampp/htdocs/CardMonster/test2.php",
+		"/C/xampp/htdocs/CardMonster/test.php",
+		"/C/xampp/htdocs/CardMonster/test4.php",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/xampp/htdocs/CardMonster/index.php",
+		"/C/xampp/htdocs/CardMonster/js/jquery.imgareaselect.js",
+		"/C/xampp/htdocs/CardMonster/js/jquery-3.1.0.min.js",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/xampp/htdocs/taichian/js/myjs.js",
+		"/C/xampp/htdocs/taichian/edit.php",
+		"/C/xampp/htdocs/CardMonster/js/fabric/dist/fabric.js",
+		"/C/xampp/htdocs/CardMonster/fabric.js",
+		"/C/Users/jack/Downloads/test2.php",
+		"/C/Users/jack/Desktop/CardMonster/index.php",
+		"/C/Users/jack/Documents/New Unity Project/Assets/Scripts/launcher.cs",
+		"/C/Users/jack/Documents/New Unity Project/Assets/Scripts/player.cs",
+		"/C/Users/jack/Documents/New Unity Project/Assets/Scripts/ball_action.cs",
+		"/C/Users/jack/Documents/New Unity Project/Assets/ball_action.cs",
+		"/C/Users/jack/Documents/New Unity Project/test.cs",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/C/xampp/htdocs/taichian/admin_audio_pagebtn.php",
+		"/C/xampp/htdocs/taichian/tttest2.php",
+		"/C/xampp/htdocs/taichian/tttest.php",
+		"/C/Users/jack/Documents/New Unity Project/Assets/player.cs",
+		"/C/xampp/htdocs/taichian/audio_pagebtn.php",
+		"/C/xampp/htdocs/taichian/admin.php",
+		"/C/xampp/htdocs/taichian/pdo.php",
+		"/C/xampp/htdocs/taichian/admin_media.php",
+		"/C/xampp/htdocs/taichian/tttest3.php",
+		"/C/Users/jack/Desktop/search_post.php",
+		"/C/Users/jack/Desktop/search.php",
+		"/C/xampp/htdocs/taichian/inter_room.php",
+		"/C/xampp/htdocs/tttest2.php",
+		"/C/xampp/htdocs/taichian/xyz.sublime-project",
+		"/C/xampp/htdocs/taichian/admin_enter.php",
+		"/C/xampp/htdocs/fuwen/application/controllers/Blog.php",
+		"/C/xampp/htdocs/taichian/index.php",
+		"/C/xampp/htdocs/taichian/book_room.php",
+		"/C/xampp/htdocs/fuwen/application/controllers/Welcome.php",
+		"/C/xampp/htdocs/fuwen/application/controllers/index.html",
+		"/C/xampp/htdocs/fuwen/application/index.html",
+		"/C/xampp/htdocs/fuwen/index.php",
+		"/C/xampp/htdocs/taichian/css/audio_room.css",
+		"/C/xampp/htdocs/taichian/audio_room.php",
+		"/C/xampp/htdocs/taichian/action_room.php",
+		"/C/xampp/htdocs/taichian/media_slide.php",
+		"/C/Users/jack/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/fuwen/application/models/Blog_model.php",
+		"/C/xampp/htdocs/fuwen/data/bootstrap/css/stone.css",
+		"/C/xampp/htdocs/fuwen/application/views/header.php",
+		"/C/xampp/htdocs/fuwen/application/views/stone.php",
+		"/C/xampp/htdocs/fuwen/application/views/stone_list.php",
+		"/C/xampp/htdocs/fuwen/application/views/footer.php",
+		"/C/xampp/htdocs/taichian/book_pagebtn.php",
+		"/C/xampp/htdocs/fuwen/application/config/autoload.php",
+		"/C/xampp/htdocs/fuwen/application/config/database.php",
+		"/C/xampp/htdocs/fuwen/application/views/item.php",
+		"/C/xampp/htdocs/fuwen/application/views/template.php",
+		"/C/xampp/htdocs/fuwen/application/config/routes.php",
+		"/C/xampp/htdocs/fuwen/system/helpers/url_helper.php",
+		"/C/xampp/htdocs/ttt.php",
+		"/C/xampp/htdocs/Taichian/book_room.php",
+		"/C/xampp/htdocs/test.sass",
+		"/C/Users/jack/Downloads/system_manager.php",
+		"/C/Users/jack/Downloads/DataConnections/NewIvr.php",
+		"/C/Users/jack/Downloads/Object/Object.php",
+		"/C/Users/jack/Downloads/DataModels/Manager.php",
+		"/C/xampp/htdocs/fuwen/application/config/config.php",
+		"/C/xampp/htdocs/fuwen/.htaccess",
+		"/C/xampp/htdocs/fuwen/application/views/footeer.php",
+		"/C/xampp/htdocs/fuwen/footeer.php",
+		"/C/xampp/htdocs/nymphe_admin/search.php",
+		"/C/xampp/htdocs/fuwen/system/index.html",
+		"/C/xampp/htdocs/fuwen/application/cache/index.html",
+		"/C/xampp/htdocs/fuwen/application/third_party/index.html",
+		"/C/xampp/htdocs/fuwen/application/models/index.html",
+		"/C/xampp/htdocs/lion/fuck2.php",
+		"/C/xampp/htdocs/lion/fuck.php",
+		"/C/xampp/htdocs/lion/index.php",
+		"/C/xampp/htdocs/lion/pdo.php",
+		"/C/xampp/htdocs/lion/post.php",
+		"/C/xampp/htdocs/lion/test.php",
+		"/C/xampp/htdocs/Taichian/tttest2.php",
+		"/C/xampp/htdocs/Taichian/tttest3.php",
+		"/C/xampp/htdocs/Taichian/board_fix.php",
+		"/C/xampp/htdocs/Taichian/admin.php",
+		"/C/xampp/htdocs/Taichian/template.php",
+		"/C/xampp/htdocs/Taichian/upload_post.php"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"selected",
+			"FileReader",
+			"show",
+			"1",
+			"$book_num",
+			"$list_id",
+			"$show_result",
+			"marq",
+			"anchor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "C:\\xampp\\htdocs\\CardMonster",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "card.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

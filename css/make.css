@@ -1,0 +1,103 @@
+body{
+		margin:0;
+		padding: 0;
+		background: #fff;
+		}
+	.top		/*上方的導航列:動手做卡片,創作園地,關於*/
+		{
+		background:blue;
+		width: 100%;
+		height: 60px;
+		}
+	.btn		/*下方所有區塊*/
+		{
+		box-sizing: border-box;
+		height: 600px;
+		padding-top: 40px;
+		min-width: 1200px;
+		}
+		.btn_l	/*左邊卡片的位置*/
+			{
+			box-sizing: border-box;
+			width: 30%;
+			float: left;
+			height: 100%;
+			padding-left:100px;
+			}
+		.btn_r /*右邊的資料輸入區塊*/
+			{
+			width: 50%;
+			height: 100%;
+			float: left;
+			padding-left: 100px;
+			}
+				ul.slider 	/*右邊的導航欄*/
+					{
+					width: 600px;
+					height: 40px;
+					margin:0;padding: 0;
+					list-style: none;
+					margin-bottom:50px;
+					/*background: rgb(56,125,170);藍*/
+					/*background: rgb(231,230,230);灰*/
+					/*background: rgb(163,179,196);字灰*/
+					}
+						ul.slider li
+							{
+							width: 198px;
+							float:left;
+							text-align: center;
+							font-weight: bold;
+							background: rgb(231,230,230);/*背景灰*/
+							letter-spacing: 2px;
+							border:1px solid rgb(56,125,170);/*藍*/
+							}
+						ul.slider li:first-child a
+							{
+							background: rgb(56,125,170);/*背景藍*/
+							color:#fff;
+							}	
+						ul.slider li a
+							{
+							width: 100%;
+							display: block;
+							text-decoration: none;
+							line-height: 2.5em;
+							color:rgb(163,179,196);/*字灰*/
+							}
+				.btn_r>.box 			/*右邊三個切換欄*/
+					{
+					height: 400px;
+					width: 600px;
+					overflow: auto;
+					background: rgb(231,230,230);/*背景灰*/
+					position: absolute;
+					display: none;
+					border: 1px solid #000
+					}
+				.btn_r>.box:nth-child(2) /*一開始僅資料輸入欄呈現*/
+					{
+					display: block;
+					}
+						#life,#cost 	/*花費,生命輸入欄的寬度*/
+							{
+							width: 40px;	
+							}
+				.btn_r #action_l,.btn_r #action_r
+					{
+					float:left;	
+					}
+				.box #qualify_div	/*品質區塊清除浮動*/
+					{
+					clear: both;
+					}
+							#action_r  img /*行為模式的圖片*/
+							{
+							width: 25px;height: 25px;margin-left: 5px
+							}
+							#action_r .action_text/*輸入效果的框框藉由打勾呈現*/
+							{
+							width: 50px;
+							display: none;
+							text-align: center;
+							}
