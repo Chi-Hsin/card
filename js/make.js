@@ -105,11 +105,11 @@ $(function(){
 					{
 						if(i == 0)
 						{
-							obj1.set({left:obj1.left+90});
+							obj1.set({left:obj1.left+75});
 						}
 						else if(i == 1)
 						{
-							obj2.set({left:obj2.left-180});
+							obj2.set({left:obj2.left-150});
 						}
 					};
 
