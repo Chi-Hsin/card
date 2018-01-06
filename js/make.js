@@ -2,24 +2,27 @@ $(function(){
 		canvas = new fabric.Canvas('c');//全域變數 在其他地方也能調用
 		canvas.new_canvas();//初始化畫布
 		skill_list();
-		$("#background").change(function(){
+		$(".background").change(function(){
 			switch($(this).val())
 			{
 
+				case "白":
+					myobj.background.color = "rgb(255,255,255)";
+				break;
 				case "黃":
-					myobj.background.color = "#fff799";
+					myobj.background.color = "rgb(245,235,122)";
 				break;
 				case "藍":
-					myobj.background.color = "blue";
+					myobj.background.color = "rgb(122,180,245)";
 				break;
 				case "紅":
-					myobj.background.color = "red";
+					myobj.background.color = "rgb(245,122,145)";
 				break;
 				case "綠":
-					myobj.background.color = "green";
+					myobj.background.color = "rgb(136,245,157)";
 				break;
 				case "灰":
-					myobj.background.color = "grey";
+					myobj.background.color = "rgb(173,190,176)";
 				break;
 			}
 			canvas.remove(canvas.get_item("background"));
@@ -160,7 +163,7 @@ $(function(){
 			$(".btn_r>.box:nth-child(4)").css("display","block");
 			$(".btn_r>.box:not(:nth-child(4))").css("display","none");
 		})
-		$("#qualify").change(function(){
+		$(".qualify").change(function(){
 			var path = myobj.qualify.path;
 			switch($(this).val())
 			{
@@ -182,7 +185,7 @@ $(function(){
 			create_img(path,"qualify");
 
 		})
-		$("#race").change(function(){
+		$(".race").change(function(){
 			var path = myobj.race.path;
 			switch($(this).val())
 			{

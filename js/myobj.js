@@ -192,8 +192,8 @@ fabric.Canvas.prototype.new_canvas = function()//初始化畫布
 								name:"background"});
 				canvas.add(rect);//背景第一個放,且一定是放到最後
 				rect.sendToBack();
-				fabric.Image.fromURL("card_open.jpg",function(file_photo){
-				file_photo.set({left:150,top:150,name:"file_photo"});
+				fabric.Image.fromURL("img/card_open.jpg",function(file_photo){
+				file_photo.set({left:70,top:100,name:"file_photo"});
 				canvas.add(file_photo);//上傳圖第二個放
 				img.set({selectable:false,name:"race"});
 				canvas.add(img);//框架第三個放

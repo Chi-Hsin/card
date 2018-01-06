@@ -5,10 +5,51 @@ body{
 		}
 	.top		/*上方的導航列:動手做卡片,創作園地,關於*/
 		{
-		background:blue;
+		background: rgba(122,180,245,0.5);
+		/*overflow: hidden;*/
 		width: 100%;
 		height: 60px;
+		position: relative;
+		border-bottom: 1px solid #ccc;
 		}
+			.top #title_img
+			{
+			width: 800px;
+			height: 100%;
+			background-image: url("../img/card_open2.jpg");
+			background-repeat: no-repeat;
+			background-position: 0px -60px;
+			position: absolute;
+			left:0;
+			}
+			.top ul#title
+			{
+			/*background: red;*/
+			height: 30px;
+			list-style: none;
+			padding: 0;
+			margin:0;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			}
+			.top ul#title li
+			{
+			float: left;
+			margin-left: 40px;
+			}
+			.top ul#title li a
+			{
+			display: block;
+			text-decoration: none;
+			color:#000;
+			}
+			.top ul#title li a:hover
+			{
+			border-bottom: 1px solid blue;
+			padding-bottom: 5px;
+			}
+		
 	.btn		/*下方所有區塊*/
 		{
 		box-sizing: border-box;
@@ -24,6 +65,14 @@ body{
 			height: 100%;
 			padding-left:100px;
 			}
+			.btn_l div{padding:10px 0 0 5px;}
+			.btn_l #download_pic{
+					display: inline-block;
+					background:url("../img/download.png");
+					width: 45px;
+					height: 45px;
+					background-size: cover;
+				}
 		.btn_r /*右邊的資料輸入區塊*/
 			{
 			width: 50%;
@@ -105,13 +154,28 @@ body{
 				.box #skill_box div
 							{position: absolute;
 							background: pink;
-							top:160px;
+							top:230px;
 							left:40px;
 							height: 400px;
 							width: 680px;
 							display: none;
 							}
 				.skill_text{visibility: hidden;}
-				.bk_img{width: 30px;height: 30px;background: red;display: inline-block;}
-				.race_img{width: 30px;height: 30px;background: red;display: inline-block;}
-				.q_img{width: 30px;height: 30px;background: red;display: inline-block;}
+				.q_img,.race_img,.bk_img{width: 30px;height: 35px;display:inline-block;}
+				#qualify_div label:nth-child(1) .q_img{background:url("../img/q_rainbow.png");background-size:cover;}
+				#qualify_div label:nth-child(2) .q_img{background:url("../img/q_gold.png");background-size:cover;}
+				#qualify_div label:nth-child(3) .q_img{background:url("../img/q_silver.png");background-size:cover;}
+				#qualify_div label:nth-child(4) .q_img{background:url("../img/q_iron.png");background-size:cover;}
+				#race_div label:nth-child(1) .race_img{background:url("../img/r_green_s.png");background-size:cover;}
+				#race_div label:nth-child(2) .race_img{background:url("../img/r_blue_s.png");background-size:cover;}
+				#race_div label:nth-child(3) .race_img{background:url("../img/r_red_s.png");background-size:cover;}
+				#race_div label:nth-child(4) .race_img{background:url("../img/r_purple_s.png");background-size:cover;}
+				#race_div label:nth-child(5) .race_img{background:url("../img/r_yellow_s.png");background-size:cover;}
+				#bk_div label:nth-child(1) .bk_img{background:rgb(255,255,255);}
+				#bk_div label:nth-child(2) .bk_img{background:rgb(245,235,122);}
+				#bk_div label:nth-child(3) .bk_img{background:rgb(122,180,245);}
+				#bk_div label:nth-child(4) .bk_img{background:rgb(245,122,145);}
+				#bk_div label:nth-child(5) .bk_img{background:rgb(136,245,157);}
+				#bk_div label:nth-child(6) .bk_img{background:rgb(173,190,176);}
+
+
