@@ -11,13 +11,13 @@
 <script src="js/make.js"></script>
 <link rel="stylesheet" type="text/css" href="css/make.css">
 <body>
-<div class="top"></div>
+<div class="top">123</div>
 <div class="btn">
 	<div class="btn_l"><!--左側卡面-->
 		<canvas width="335" height="435" id="c"></canvas>
-		<!-- <a href="javascript:;" id="get_value">取值</a> -->
+		<a href="javascript:;" id="get_value">取值</a>
 		<p>
-			<a href="javascript:;" id="download_pic" download>圖片下載</a>
+			<a href="javascript:;" id="download_pic" download>download</a>
 		</p>
 	</div>
 	<div class="btn_r"><!--右側導航欄-->
@@ -80,42 +80,53 @@
 				</div>
 			</p>
 			<p id="qualify_div">品質：
-				<select name="" id="qualify">
+				<!-- <select name="" id="qualify">
 					<option value="彩">彩</option>
 					<option value="金">金</option>
 					<option value="銀">銀</option>
 					<option value="鐵">鐵</option>
-				</select>
+				</select> -->
+				<label>
+					<input type="radio"  class="background"  value="黃"><span class="q_img"></span>
+					<input type="radio"  class="background"  value="黃"><span class="q_img"></span>
+					<input type="radio"  class="background"  value="黃"><span class="q_img"></span>
+					<input type="radio"  class="background"  value="黃"><span class="q_img"></span>
+				</label>
 			</p>
 			<p>陣營：
-				<select name="" id="race">
+			<!-- 	<select name="" id="race">
 					<option value="綠">綠</option>
 					<option value="藍">藍</option>
 					<option value="紅">紅</option>
 					<option value="紫">紫</option>
 					<option value="黃">黃</option>
-				</select>
-			</p>
-			<p>能力：
-				<select name="" id="">
-					<option value="" selected="selected"  disabled="disabled">請選擇</option>
-					<option value="">A</option>
-					<option value="">B</option>
-					<option value="">C</option>
-				</select>
+				</select> -->
+				<input type="radio"  class="background"  value="黃"><span class="race_img"></span>
+				<input type="radio"  class="background"  value="黃"><span class="race_img"></span>
+				<input type="radio"  class="background"  value="黃"><span class="race_img"></span>
+				<input type="radio"  class="background"  value="黃"><span class="race_img"></span>
 			</p>
 			<p>背景：
-				<select name="" id="">
+				<!-- <select name="" id="background">
 					<option value="" selected="selected"  disabled="disabled">請選擇</option>
-					<option value="">A</option>
-					<option value="">B</option>
-					<option value="">C</option>
-				</select>
+					<option value="黃">A</option>
+					<option value="藍">B</option>
+					<option value="紅">C</option>
+					<option value="綠">D</option>
+					<option value="灰">E</option>
+				</select> -->
+				<input type="radio"  class="background"  value="黃"><span class="bk_img"></span>
+				<input type="radio"  class="background"  value="黃"><span class="bk_img"></span>
+				<input type="radio"  class="background"  value="黃"><span class="bk_img"></span>
+				<input type="radio"  class="background"  value="黃"><span class="bk_img"></span>
 			</p>
+			<div id="skill_box">能力<a id="arrow" href="javascript:;">--></a>
+				<div id="skill_box_list"></div><!-- 這邊放置技能選單列表 -->
+			</div>
 		</div>
 		<div class="box">ggggg</div>
 		<div class="box">
-		上傳圖片(限制上傳檔案類型:XXX)<input type="file">
+		上傳圖片(限制上傳檔案類型:XXX)<input type="file" id="file_photo">
 		</div>
 	</div>
 </div>
