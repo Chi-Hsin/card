@@ -16,7 +16,13 @@ function create_img(path,type,index,text_exist,value)//更新,產生圖片放在
 	}
 	else if(type == "race")//更改框架圖
 	{
-		 canvas.setBackgroundImage(path, canvas.renderAll.bind(canvas)) 
+		
+		fabric.Image.fromURL(path,function(img){
+			var index = canvas.getObjects().indexOf(canvas.get_item("race"));
+		canvas.remove(canvas.get_item("race"));
+				img.set({name:"race",selectable:false});
+				canvas.insertAt(img,index);
+			});
 		
 	}
 	else//放上行動圖
@@ -39,6 +45,15 @@ function delete_img(type)
 {
 	canvas.remove(canvas.get_item(type));
 }
+// function obj_index(element)//取得勾選或取消勾選是紀錄check的第幾個
+// {
+// 	var index = function(element)
+// 	{
+// 		return myobj.skill.check.indexOf(element);
+// 	}
+
+
+// }
 function remove_drop(element)//判斷移除的行為模式在左圖中是第一個還是第二個
 {
 	// for(var i=index;i<index+3;i++)
@@ -62,7 +77,6 @@ function remove_drop(element)//判斷移除的行為模式在左圖中是第一�
 		that_text.set({top:that_text.top+myobj.action.height});
 	}
 }
-
 function create_text(value,type,index)
 {
 	var set_option = //臨時性作變數用的物件
